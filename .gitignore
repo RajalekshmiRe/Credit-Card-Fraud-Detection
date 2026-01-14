@@ -34,7 +34,6 @@ wheels/
 .vscode/
 
 # Model files (if too large)
-*.pkl
 *.h5
 *.model
 
