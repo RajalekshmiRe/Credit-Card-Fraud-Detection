@@ -151,39 +151,3 @@ This project is open-source and available for educational purposes.
 
 **⭐ If you found this project helpful, please consider giving it a star!**
 ```
-
----
-
-## 🎯 **3. FILES TO CREATE FOR SUBMISSION**
-
-### **A. Challenge2_Code_Rajalekshmi.zip**
-Create a ZIP with these files:
-```
-Challenge2_Code_Rajalekshmi/
-├── Task1_Challenge2_Credit_Card_Fraud_Detection.ipynb
-├── app.py
-├── requirements.txt
-├── fraud_detection_model.pkl
-├── scaler.pkl
-└── README.md (use the updated version above)
-```
-
-### **B. Challenge2_Output_Rajalekshmi.zip**
-Create a ZIP with these files:
-```
-Challenge2_Output_Rajalekshmi/
-├── deployment_details.txt (updated version above)
-├── confusion_matrices.png (from your Visualizations folder)
-├── class_distribution.png (from your Visualizations folder)
-├── roc_curves.png (from your Visualizations folder)
-├── feature_importance.png (from your Visualizations folder)
-└── amount_distribution.png (from your Visualizations folder)
-```
-
----
-
-## 📝 **4. GOOGLE FORM SUBMISSION**
-
-### **Field 1: Project Title**
-```
-Credit Card Fraud Detection System Using XGBoost
