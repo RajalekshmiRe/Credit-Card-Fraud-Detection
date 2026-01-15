@@ -111,23 +111,20 @@ with col1:
         "⏱️ Time (seconds)", 
         min_value=0.0, 
         value=50000.0, 
-        step=1000.0,
-        key="time_input"
+        step=1000.0
     )
     amount = st.number_input(
         "💵 Amount ($)", 
         min_value=0.0, 
         value=100.0, 
-        step=10.0,
-        key="amount_input"
+        step=10.0
     )
 
 with col2:
     st.markdown("### 🎯 Quick Presets")
     preset = st.selectbox(
         "Select Test Case",
-        ["Custom Values", "Legitimate Transaction", "Fraudulent Transaction"],
-        key="preset_selector"
+        ["Custom Values", "Known Legitimate Transaction", "Known Fraudulent Transaction"]
     )
 
 # PCA Features
@@ -136,7 +133,7 @@ st.markdown("### 🔢 Enter V1-V28 Feature Values")
 
 features = []
 
-if preset == "Fraudulent Transaction":
+if preset == "Known Fraudulent Transaction":
     fraud_values = [
         -1.27124419171437,   # V1
         2.46267526851135,    # V2
@@ -168,8 +165,8 @@ if preset == "Fraudulent Transaction":
         0.250187092757197    # V28
     ]
     features = fraud_values
-    time_seconds = 57007.0
-    amount = 0.01
+    time_seconds = 57007.0  # Changed from 84.0
+    amount = 0.01           # Changed from 529.0
     
     st.warning("⚠️ Using known fraudulent transaction")
     
@@ -178,7 +175,7 @@ if preset == "Fraudulent Transaction":
         with cols[i % 4]:
             st.text_input(f"V{i+1}", value=f"{fraud_values[i]:.6f}", disabled=True, key=f"fraud_v{i+1}")
 
-elif preset == "Legitimate Transaction":
+elif preset == "Known Legitimate Transaction":
     legit_values = [
         1.191857, 0.266151, 0.166480, 0.448154, 0.060018,
         -0.082361, -0.078803, 0.085102, -0.255425, -0.166974,
