@@ -1,0 +1,130 @@
+===========================================
+CREDIT CARD FRAUD DETECTION SYSTEM
+Level 3 - Challenge 2 | Certify Technology
+===========================================
+
+👤 Developer: Rajalekshmi Reji
+📧 Email: rajalekshmireji07@gmail.com
+📅 Submission Date: January 15, 2026
+
+===========================================
+🔗 PROJECT LINKS
+===========================================
+
+GitHub Repository:
+https://github.com/RajalekshmiRe/Credit-Card-Fraud-Detection
+
+Live Deployment URL (Streamlit Cloud):
+https://credit-card-fraud-detection-rajalekshmire.streamlit.app/
+
+📸 Note: All application screenshots and visualizations are 
+available in the GitHub repository for reviewer access.
+
+===========================================
+💻 TECHNOLOGY STACK
+===========================================
+
+Programming Language: Python 3.13
+Machine Learning: XGBoost 3.1.3
+Web Framework: Streamlit 1.53.0
+Data Processing: Pandas 2.3.3, NumPy 2.4.1
+ML Library: Scikit-learn 1.8.0
+Visualization: Matplotlib, Seaborn
+
+===========================================
+📊 MODEL PERFORMANCE METRICS
+===========================================
+
+✓ Accuracy: 99.78%
+✓ Precision: 42.79%
+✓ Recall: 87.76%
+✓ F1-Score: 57.53%
+✓ ROC-AUC: 98.36%
+
+Algorithm Used: XGBoost Classifier
+Training Dataset: 284,807 transactions
+Fraud Cases: 492 (0.17%)
+Legitimate Cases: 284,315 (99.83%)
+
+===========================================
+🎯 KEY FEATURES IMPLEMENTED
+===========================================
+
+✓ Real-time fraud detection system
+✓ XGBoost machine learning model
+✓ Interactive Streamlit dashboard
+✓ Preset test cases (Fraud & Legitimate)
+✓ Custom transaction analysis
+✓ 28 PCA-transformed features (V1-V28)
+✓ Detailed risk level indicators
+✓ Actionable fraud recommendations
+✓ Professional UI with metrics display
+✓ Model performance visualization
+
+===========================================
+🚀 DEPLOYMENT DETAILS
+===========================================
+
+Deployment Platform: Streamlit Cloud
+Deployment Status: ✅ Successfully Deployed
+Deployment Type: Cloud-based Web Application
+Access: Public URL (24/7 Available)
+Model Files: fraud_detection_model.pkl, scaler.pkl
+Dataset: creditcard.csv (1.47 GB)
+
+===========================================
+📋 PROJECT STRUCTURE
+===========================================
+
+Credit-Card-Fraud-Detection/
+├── app.py (Streamlit Application - 20 KB)
+├── fraud_detection_model.pkl (Model - 265 KB)
+├── scaler.pkl (Scaler - 2 KB)
+├── requirements.txt (Dependencies)
+├── Task1_Challenge2_Credit_Card_Fraud_Detection.ipynb (Training)
+├── creditcard.csv (Dataset - 1.47 GB)
+├── README.md (Documentation)
+└── Visualizations/
+    ├── confusion_matrices.png
+    ├── class_distribution.png
+    ├── roc_curves.png
+    ├── feature_importance.png
+    └── amount_distribution.png
+
+===========================================
+✨ SPECIAL ACHIEVEMENTS
+===========================================
+
+✓ Successfully handled highly imbalanced dataset (1:578 ratio)
+✓ Implemented SMOTE for data balancing
+✓ Achieved 99.78% accuracy with 87.76% recall
+✓ Created production-ready deployment
+✓ Built professional enterprise-grade UI
+✓ Real-time fraud risk assessment
+✓ Comprehensive documentation
+
+===========================================
+🎓 LEARNING OUTCOMES
+===========================================
+
+✓ Advanced ML model optimization
+✓ Handling imbalanced datasets
+✓ XGBoost hyperparameter tuning
+✓ Real-world fraud detection patterns
+✓ Full-stack ML deployment
+✓ Cloud deployment (Streamlit Cloud)
+✓ Production-ready ML applications
+
+===========================================
+📞 CONTACT INFORMATION
+===========================================
+
+Developer: Rajalekshmi Reji
+Email: rajalekshmireji07@gmail.com
+GitHub: https://github.com/RajalekshmiRe
+Project Repository: https://github.com/RajalekshmiRe/Credit-Card-Fraud-Detection
+
+===========================================
+© 2026 | Certify Technology ML Internship
+Machine Learning Developer - Level 3
+===========================================
