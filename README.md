@@ -150,4 +150,5 @@ This project is open-source and available for educational purposes.
 ---
 
 **⭐ If you found this project helpful, please consider giving it a star!**
-```
+
+**🌐 Live at:** [https://credit-card-fraud-detection-rajalekshmire.streamlit.app/](https://credit-card-fraud-detection-rajalekshmire.streamlit.app/)
