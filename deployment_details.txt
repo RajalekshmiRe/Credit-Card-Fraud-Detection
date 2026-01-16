@@ -6,6 +6,31 @@ Level 3 - Challenge 2 | Certify Technology
 👤 Developer: Rajalekshmi Reji
 📧 Email: rajalekshmireji07@gmail.com
 📅 Submission Date: January 15, 2026
+🔄 Updated: January 16, 2026
+
+===========================================
+⚠️ IMPORTANT NOTE FOR REVIEWERS
+===========================================
+
+The deployment URL has been UPDATED after initial submission
+due to connectivity issues with the original deployment.
+
+❌ Original URL (Submitted): 
+https://credit-card-fraud-detection-rajalekshmire.streamlit.app/
+
+✅ NEW WORKING URL (Updated):
+https://credit-card-fraud-detection-lqkihxmwkfumz3bjqsmrut.streamlit.app/
+
+📝 Reason: The initial deployment experienced technical issues
+post-submission. The application has been redeployed with a
+stable URL to ensure uninterrupted access for evaluation.
+
+🔍 Verification: Application is live and fully functional.
+All features and functionality remain identical to the
+originally submitted version.
+
+⏰ If app shows sleep message: Click "Yes, get this app back up!"
+The application will load within 1-2 minutes.
 
 ===========================================
 🔗 PROJECT LINKS
@@ -14,8 +39,8 @@ Level 3 - Challenge 2 | Certify Technology
 GitHub Repository:
 https://github.com/RajalekshmiRe/Credit-Card-Fraud-Detection
 
-Live Deployment URL (Streamlit Cloud):
-https://credit-card-fraud-detection-rajalekshmire.streamlit.app/
+Live Deployment URL (Streamlit Cloud) - UPDATED:
+https://credit-card-fraud-detection-lqkihxmwkfumz3bjqsmrut.streamlit.app/
 
 📸 Note: All application screenshots and visualizations are 
 available in the GitHub repository for reviewer access.
@@ -66,25 +91,39 @@ Legitimate Cases: 284,315 (99.83%)
 ===========================================
 
 Deployment Platform: Streamlit Cloud
-Deployment Status: ✅ Successfully Deployed
+Deployment Status: ✅ Successfully Deployed (Updated)
 Deployment Type: Cloud-based Web Application
 Access: Public URL (24/7 Available)
 Model Files: fraud_detection_model.pkl, scaler.pkl
 Dataset: creditcard.csv (1.47 GB)
+
+Deployment Timeline:
+- January 14, 2026: Model training completed
+- January 15, 2026: Initial deployment & submission
+- January 16, 2026: URL updated for stable access
 
 ===========================================
 📋 PROJECT STRUCTURE
 ===========================================
 
 Credit-Card-Fraud-Detection/
-├── app.py (Streamlit Application - 20 KB)
+├── streamlit/
+│   ├── app.py (Streamlit Application - 20 KB)
+│   └── config.toml (Configuration)
 ├── fraud_detection_model.pkl (Model - 265 KB)
 ├── scaler.pkl (Scaler - 2 KB)
 ├── requirements.txt (Dependencies)
 ├── Task1_Challenge2_Credit_Card_Fraud_Detection.ipynb (Training)
 ├── creditcard.csv (Dataset - 1.47 GB)
-├── README.md (Documentation)
-└── Visualizations/
+├── README.md (Documentation - Updated)
+├── deployment_details.txt (This file - Updated)
+├── Challenge2_Code_Rajalekshmi.zip (Code Submission)
+├── Challenge2_Output_Rajalekshmi.zip (Output Submission)
+└── screenshots/
+    ├── main_interface.png
+    ├── sidebar_expanded.png
+    ├── fraud_detection.png
+    ├── legitimate_transaction.png
     ├── confusion_matrices.png
     ├── class_distribution.png
     ├── roc_curves.png
@@ -102,6 +141,7 @@ Credit-Card-Fraud-Detection/
 ✓ Built professional enterprise-grade UI
 ✓ Real-time fraud risk assessment
 ✓ Comprehensive documentation
+✓ Successful cloud deployment on Streamlit
 
 ===========================================
 🎓 LEARNING OUTCOMES
@@ -114,6 +154,22 @@ Credit-Card-Fraud-Detection/
 ✓ Full-stack ML deployment
 ✓ Cloud deployment (Streamlit Cloud)
 ✓ Production-ready ML applications
+✓ Troubleshooting deployment issues
+
+===========================================
+📦 SUBMISSION FILES
+===========================================
+
+Code Submission: Challenge2_Code_Rajalekshmi.zip
+- Contains: Complete source code, notebooks, model files
+
+Output Submission: Challenge2_Output_Rajalekshmi.zip
+- Contains: Visualizations, screenshots, documentation
+- Note: Original zip contains old URL in deployment_details.txt
+
+Updated Files (Post-Submission):
+- README.md - Updated with new URL and reviewer note
+- deployment_details.txt - This file with corrected URL
 
 ===========================================
 📞 CONTACT INFORMATION
@@ -124,7 +180,13 @@ Email: rajalekshmireji07@gmail.com
 GitHub: https://github.com/RajalekshmiRe
 Project Repository: https://github.com/RajalekshmiRe/Credit-Card-Fraud-Detection
 
+For any queries regarding the updated deployment URL,
+please contact via email or GitHub.
+
 ===========================================
 © 2026 | Certify Technology ML Internship
 Machine Learning Developer - Level 3
+Challenge 2: Credit Card Fraud Detection
 ===========================================
+
+END OF DEPLOYMENT DETAILS - UPDATED VERSION
